@@ -1,3 +1,9 @@
+path_classifiers:
+  code:
+  - "**/*.c"
+  - "**/*.cpp"
+  - "**/*.h"
+  - "**/*.hpp"
 extraction:
   cpp:
     prepare:
