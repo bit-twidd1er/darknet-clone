@@ -2,6 +2,6 @@ extraction:
   cpp:
     prepare:
       packages: "libopencv-dev"
-    after_prepare: "export GNU_MAKE=make"
+    after_prepare: "export OPENCV=1"
     index:
-      build_command: "$GNU_MAKE OPENCV=1"
+      build_command: "make all"
