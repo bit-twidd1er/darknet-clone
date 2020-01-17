@@ -1,5 +1,3 @@
-#ifdef OPENCV
-
 #include "stdio.h"
 #include "stdlib.h"
 #include "opencv2/opencv.hpp"
@@ -131,5 +129,3 @@ void make_window(char *name, int w, int h, int fullscreen)
 }
 
 }
-
-#endif
